@@ -1,14 +1,16 @@
 baseURL = "https://mukoAOI.github.io/"
 theme = "introduction"
+themesDir = "themes"
 title = "mukoAOI"
 defaultContentLanguage = "zh-cn"
 enableRobotsTXT = true
 
 [taxonomies]
-  tag = "tags"
-  series = "series"
+tag = "tags"
+series = "series"
 
 [params]
+  description = "mukoAOI 的个人站点 · Hugo Introduction 主题"
   themeStyle = "auto"
   favicon = "/img/fav.ico"
   showMenu = true
@@ -53,13 +55,3 @@ enableRobotsTXT = true
     lineNos = false
     style = "github"
     tabWidth = 4
-
-[languages]
-  [languages.zh-cn]
-    label = "简体中文"
-    locale = "zh-CN"
-    contentDir = "content"
-    weight = 0
-    title = "mukoAOI"
-    [languages.zh-cn.params]
-      description = "mukoAOI 的个人站点 · Hugo Introduction 主题"
