@@ -36,7 +36,7 @@ jobs:
           test -f themes/introduction/theme.toml
           grep -E 'name\s*=\s*"Introduction"' themes/introduction/theme.toml
 
-      - name: Setup Node.js
+      - name: Setup Node.js:cpu_quota: value
         uses: actions/setup-node@v4
         with:
           node-version: "20"
